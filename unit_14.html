@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Unit 14</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="unit_14.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text">UNIT 14. API Погода</h1>
+      <h2>
+        <a
+          href="https://itgid.info/course/javascript-2"
+          target="_blank"
+          class="text"
+          >JavaScript v.2.0 - курс Лущенко Александра</a
+        >
+      </h2>
+      <p class="text">
+        Верстку в этом юните - делаете самостоятельно. Имя CSS файла - любое.
+      </p>
+      <div class="card">
+        <div class="search">
+          <select class="select-city">
+            <option value="703448">Kyiv</option>
+            <option value="709930">Dnipro</option>
+            <option value="706483">Kharkiv</option>
+            <option value="702550">Lviv</option>
+          </select>
+          <div class="weather loading">
+            <h2 class="city">Weather in Kyiv</h2>
+            <h1 class="temp">51°C</h1>
+            <div class="flex">
+              <img
+                src="https://openweathermap.org/img/wn/04n.png"
+                alt=""
+                class="icon"
+              />
+              <div class="description">Cloudy</div>
+            </div>
+            <!-- <div class="humidity">Humidity: 60%</div> -->
+            <div class="wind">Wind speed: 6.2 km/h</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
